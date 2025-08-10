@@ -7,21 +7,21 @@ main:
   - name: Bio
     url: /
     weight: 10
-  - name: Papers
+  - name: MorphoSource 3D
     url: /#papers
     weight: 11
-  - name: Talks
+  - name: Data Interoperability
     url: /#talks
     weight: 12
-  - name: News
+  - name: DevOps
     url: /#news
     weight: 13
-  - name: Experience
+  - name: Hobby
     url: experience/
     weight: 20
-  - name: Projects
-    url: projects/
-    weight: 30
-  - name: Teaching
-    url: teaching/
-    weight: 40
+  # - name: Projects
+  #   url: projects/
+  #   weight: 30
+  # - name: Teaching
+  #   url: teaching/
+  #   weight: 40
