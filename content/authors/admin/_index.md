@@ -11,7 +11,7 @@ last_name: Winchester
 
 # Status emoji
 status:
-  icon: ☕️
+  icon:
 
 # Is this the primary user of the site?
 superuser: true
@@ -41,6 +41,7 @@ profiles:
 interests:
   - Digital Infrastructure
   - FAIR Natural History Data
+  - Extended Specimen
   - Software Dev and DevOps
   - 3D Modalities
 
@@ -152,4 +153,6 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+My name is Julie Winchester and I am the Technical Director for the MorphoSource 3D Data Repository at Duke University, where I lead the design and management of scalable digital infrastructure connecting museums, researchers, and the public to natural history collections. I am passionate about building open, interoperable cyberinfrastructure for the natural sciences. I also contribute to international image data standards as a specification editor for the International Image Interoperability Framework (IIIF).
+
+

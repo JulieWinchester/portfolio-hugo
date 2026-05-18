@@ -32,28 +32,40 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📚 My Work'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I currently serve as the Technical Director for the MorphoSource 3D Data Repository at Duke University. Since 2017, I have helped lead MorphoSource as it has expanded from proof of concept to a uniquely powerful, complex, and collaborative platform that connects museums, researchers, and the public to rich natural history data, with emphasis on 3D content. As Co-Director of MorphoSource, I lead our development team, do full-stack web software development and development operations tasks, manage product lifecycles, engage with a global community of museum professionals and researchers, and have helped to secure and manage grant funding for informatics infrastructure.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        I'm also a Specification Editor for the International Image Interoperability Framework (IIIF), developing technical standards used by global museums and libraries for sharing contextualized digital objects such as images, audio/video, and soon 3D resources. Further, I'm a bioinformatics research affiliate at the University of Kansas Biodiversity Institute and Natural History Museum, a field leader in advancing the extended specimen and providing solutions for biodiversity digital cyberinformatics.
 
-        Please reach out to collaborate 😃
+        My research background is in functional morphology and physical anthropology, where my Ph.D. work involved creating algorithms and tools for high-throughput specimen-based 3D phenomics, characterizing primate dentitions to answer questions about biodiversity, dietary form-function relationships, and paleoecology.
+
+        Fundamentally, I am driven by creating cutting-edge, interoperable bio-informed data systems for natural history that benefit institutions and audiences.
+    design:
+      columns: '1'
+  - block: markdown
+    id: morphosource
+    content:
+      title: 'MorphoSource 3D Data Repository'
+      text: |-
+        <img src="/media/morphosource-screenshot.png" alt="MorphoSource platform screenshot" class="w-full rounded-lg shadow-lg ring-1 ring-gray-800">
+
+        MorphoSource is an open-access repository that enables natural history collections and research institutions to make 3D data, images, and video of physical specimens Findable, Accessible, Interoperable, and Reusable (FAIR) at institutional scale. With over 30,000 users worldwide, the platform provides rich discoverability for collections of all sizes alongside granular access and reuse policy controls, integration with major aggregators like iDigBio and GBIF, and detailed usage tracking. By managing digital preservation standards, automated file characterization, and browser-based media previews, MorphoSource enables institutions and researchers to share high-value 3D content with colleagues and the public with minimal staff overhead.
+    design:
+      columns: '1'
+  - block: markdown
+    id: iiif
+    content:
+      title: 'International Image Interoperability Framework'
+      text: |-
+        <img src="/media/aleph-screenshot.png" alt="IIIF Aleph viewer screenshot" class="w-1/2 mx-auto block rounded-lg shadow-lg ring-1 ring-gray-800">
+
+        The International Image Interoperability Framework (IIIF) is a set of open APIs and community-driven standards that enable cultural heritage institutions and research communities to share, display, and annotate digital objects — images, audio, video, and soon 3D resources — in an interoperable way across viewers, repositories, and institutional boundaries. For natural history collections, IIIF unlocks rich, contextual access to specimen imagery and associated annotations without requiring data to leave its home institution. As a Specification Editor, I am actively involved in shepherding and maintaining the technical specifications — including the Image and Presentation APIs — that underpin IIIF adoption across museums, libraries, and research platforms worldwide.
     design:
       columns: '1'
   - block: collection
     id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
     content:
       title: Recent Publications
       text: ""
@@ -63,45 +75,6 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

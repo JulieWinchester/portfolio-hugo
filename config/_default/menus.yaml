@@ -8,17 +8,17 @@ main:
     url: /
     weight: 10
   - name: MorphoSource 3D
-    url: /#papers
+    url: /#morphosource
     weight: 11
-  - name: Data Interoperability
-    url: /#talks
+  - name: IIIF
+    url: /#iiif
     weight: 12
-  - name: DevOps
-    url: /#news
+  - name: Publications
+    url: /#papers
     weight: 13
-  - name: Hobby
-    url: experience/
-    weight: 20
+  - name: Technical Skills
+    url: /technical-skills
+    weight: 14
   # - name: Projects
   #   url: projects/
   #   weight: 30
