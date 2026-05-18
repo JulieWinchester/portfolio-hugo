@@ -49,7 +49,7 @@ sections:
     content:
       title: 'MorphoSource 3D Data Repository'
       text: |-
-        <img src="/media/morphosource-screenshot.png" alt="MorphoSource platform screenshot" class="w-full rounded-lg shadow-lg ring-1 ring-gray-800">
+        {{< media-img src="morphosource-screenshot.png" alt="MorphoSource platform screenshot" class="w-full rounded-lg shadow-lg ring-1 ring-gray-800" >}}
 
         MorphoSource is an open-access repository that enables natural history collections and research institutions to make 3D data, images, and video of physical specimens Findable, Accessible, Interoperable, and Reusable (FAIR) at institutional scale. With over 30,000 users worldwide, the platform provides rich discoverability for collections of all sizes alongside granular access and reuse policy controls, integration with major aggregators like iDigBio and GBIF, and detailed usage tracking. By managing digital preservation standards, automated file characterization, and browser-based media previews, MorphoSource enables institutions and researchers to share high-value 3D content with colleagues and the public with minimal staff overhead.
     design:
@@ -59,7 +59,7 @@ sections:
     content:
       title: 'International Image Interoperability Framework'
       text: |-
-        <img src="/media/aleph-screenshot.png" alt="IIIF Aleph viewer screenshot" class="w-1/2 mx-auto block rounded-lg shadow-lg ring-1 ring-gray-800">
+        {{< media-img src="aleph-screenshot.png" alt="IIIF Aleph viewer screenshot" class="w-1/2 mx-auto block rounded-lg shadow-lg ring-1 ring-gray-800" >}}
 
         The International Image Interoperability Framework (IIIF) is a set of open APIs and community-driven standards that enable cultural heritage institutions and research communities to share, display, and annotate digital objects — images, audio, video, and soon 3D resources — in an interoperable way across viewers, repositories, and institutional boundaries. For natural history collections, IIIF unlocks rich, contextual access to specimen imagery and associated annotations without requiring data to leave its home institution. As a Specification Editor, I am actively involved in shepherding and maintaining the technical specifications — including the Image and Presentation APIs — that underpin IIIF adoption across museums, libraries, and research platforms worldwide.
     design:
